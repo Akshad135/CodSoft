@@ -20,7 +20,7 @@ h1{
     border: 2px solid black;
     border-radius: 9px;
     cursor: pointer;
-    font-size: medium;
+    font-size: 1.25rem;
 }
 
 .lines input{
@@ -29,6 +29,8 @@ h1{
     padding: 10px 0px;
     border: 2px solid black;
     border-radius: 5px;
+    text-align: right;
+    padding-right: 7px;
 }
 
 /* Styling the buttons */

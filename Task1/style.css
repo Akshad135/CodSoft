@@ -1,6 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background: black;
+}
+
 h1{
     text-align: center;
     padding-top: 2rem;
+    background: linear-gradient(45deg, #4ca1af, #c4e0e5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .main-box{
@@ -14,7 +24,7 @@ h1{
 }
 
 .button{
-    width: 66px;
+    width: 70px;
     padding: 20px;
     margin: 0 3px;
     border: 2px solid black;
@@ -24,13 +34,14 @@ h1{
 }
 
 .lines input{
-    width: 295px;
+    width: 310px;
     font-size: 20px;
     padding: 10px 0px;
     border: 2px solid black;
     border-radius: 5px;
     text-align: right;
     padding-right: 7px;
+    font-family: 'Courier New', monospace;
 }
 
 /* Styling the buttons */
@@ -40,7 +51,7 @@ h1{
   
 .button:hover {
     transform: translateY(-2px);
-    box-shadow: 0px 6px 0px black;
+    box-shadow: 0px 6px 0px;
 }
 
 .button:active {
